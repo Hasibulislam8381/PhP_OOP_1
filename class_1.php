@@ -30,7 +30,7 @@ class car
     }
 }
 $newCar = new car();
-$newCar->setColor('gh');
+$newCar->setColor(color:'blue');
 echo $newCar->getcolor();
 // $newCar->setCar("Model:2023");
 // echo $newCar->getCar();
